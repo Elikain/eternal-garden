@@ -1,0 +1,99 @@
+html{
+	height: 100%;
+}
+
+body {
+	min-height: 100%
+	margin: 0;
+	padding: 0;
+	background-color: #444;
+}
+
+.container {
+	width: 500px;
+	height: 300px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: calc(50% - 150px);
+	margin: 0 auto;
+	background-color: #333;
+	color: #ddd;
+	border-radius: 30px;
+	box-shadow: 0 0 5px 10px #fff;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1:before {
+	content: '';
+	width: 400px;
+	height: 3px;
+	border-radius: 50%;
+	position: absolute;
+	top: 20px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+h1:after {
+	content: '';
+	width: 400px;
+	height: 3px;
+	border-radius: 50%;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+table {
+	width: 400px;
+	margin: 0 auto;
+	text-align: left;
+	border: 1px solid #ddd;
+}
+
+th {
+	background-color: #111;
+	color: #eee;
+}
+
+.odd {
+	background-color: #222;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+p {
+	margin: 10px 0;
+}
+
+input.number {
+	font-weight: bold;
+	text-align: right;
+	width: 40px;
+	height: 16px;
+	margin: 10px 5px;
+}
+
+.btn-pass-day {
+	width: 60px;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border-radius: 5px;
+	cursor: pointer;
+}
